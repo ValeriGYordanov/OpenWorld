@@ -1,3 +1,14 @@
 {
-  "colorPrimary": "#fcba03"
+  "colorPrimary": "#408A71",
+  "colorOnPrimary": "#091413",
+  "colorSecondary": "#285A48",
+  "colorOnSecondary": "#B0E4CC",
+  "colorTertiary": "#B0E4CC",
+  "colorOnTertiary": "#091413",
+  "colorBackground": "#091413",
+  "colorOnBackground": "#B0E4CC",
+  "colorSurface": "#285A48",
+  "colorOnSurface": "#B0E4CC",
+  "colorError": "#CF6679",
+  "colorOnError": "#091413"
 }
