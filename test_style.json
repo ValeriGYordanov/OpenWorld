@@ -1,19 +1,14 @@
 {
-  "colorPrimary": "#6A78FF",
-  "colorOnPrimary": "#FFFFFF",
-
-  "colorSecondary": "#5661BF",
-  "colorOnSecondary": "#F4F5FF",
-
-  "colorTertiary": "#39414D",
-  "colorOnTertiary": "#E8E8E9",
-
-  "colorBackground": "#1F2128",
-  "colorOnBackground": "#A4A4A4",
-
-  "colorSurface": "#343942",
-  "colorOnSurface": "#E8E8E9",
-
-  "colorError": "#D32F2F",
-  "colorOnError": "#FFE5EA"
+  "colorPrimary": "#D4A017",
+  "colorOnPrimary": "#1A1A1A",
+  "colorSecondary": "#8C7A3C",
+  "colorOnSecondary": "#FFFFFF",
+  "colorTertiary": "#2A2A2A",
+  "colorOnTertiary": "#EDEDED",
+  "colorBackground": "#121212",
+  "colorOnBackground": "#D6D6D6",
+  "colorSurface": "#1E1E1E",
+  "colorOnSurface": "#FFFFFF",
+  "colorError": "#CF3C3C",
+  "colorOnError": "#FFF1F1"
 }
