@@ -1,16 +1,49 @@
 {
-  "primaryContainer": "#2A2452",
-  "onPrimaryContainer": "#DCD5FF",
-  "primary": "#7C5CFF",
-  "onPrimary": "#FFFFFF",
-  "secondary": "#00C2A8",
-  "onSecondary": "#041412",
-  "tertiary": "#2C2F48",
-  "onTertiary": "#E6E8FF",
-  "background": "#12131A",
-  "onBackground": "#A9B0D0",
-  "surface": "#1B1E2B",
-  "onSurface": "#F3F4FF",
-  "error": "#FF5A6A",
-  "onError": "#FFF0F2"
+  "colors": {
+    "lightTheme": {
+      "primaryContainer": "#FFF4CC",
+      "onPrimaryContainer": "#2A2100",
+      "primary": "#FFD54F",
+      "onPrimary": "#121212",
+      "secondary": "#2E2E2E",
+      "onSecondary": "#FFFFFF",
+      "tertiary": "#757575",
+      "onTertiary": "#FFFFFF",
+      "background": "#F5F5F5",
+      "onBackground": "#111111",
+      "surface": "#FFFFFF",
+      "onSurface": "#1A1A1A",
+      "error": "#D32F2F",
+      "onError": "#FFFFFF"
+    },
+
+    "darkTheme": {
+      "primaryContainer": "#3A3218",
+      "onPrimaryContainer": "#FFF1B8",
+      "primary": "#FFD54F",
+      "onPrimary": "#121212",
+      "secondary": "#2B2B2B",
+      "onSecondary": "#FFFFFF",
+      "tertiary": "#9E9E9E",
+      "onTertiary": "#111111",
+      "background": "#0F0F10",
+      "onBackground": "#F5F5F5",
+      "surface": "#1A1A1C",
+      "onSurface": "#F1F1F1",
+      "error": "#FF5A5F",
+      "onError": "#FFFFFF"
+    }
+  },
+  "services": [
+    "#FFD54F",
+    "#FFB300",
+    "#FF7043",
+    "#7C4DFF",
+    "#5C6BC0",
+    "#26A69A",
+    "#42A5F5",
+    "#EC407A",
+    "#66BB6A",
+    "#8D6E63"
+  ]
 }
