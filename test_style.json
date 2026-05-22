@@ -1,4 +1,6 @@
 {
+  "primaryContainer": "#2A2452",
+  "onPrimaryContainer": "#DCD5FF"
   "primary": "#7C5CFF",
   "onPrimary": "#FFFFFF",
   "secondary": "#00C2A8",
