@@ -1,9 +1,9 @@
 {
   "colors": {
     "lightTheme": {
-      "primaryContainer": "#FFF4CC",
+      "primaryContainer": "#ccd7ff",
       "onPrimaryContainer": "#2A2100",
-      "primary": "#FFD54F",
+      "primary": "#4f79ff",
       "onPrimary": "#121212",
       "secondary": "#2E2E2E",
       "onSecondary": "#FFFFFF",
