@@ -1,0 +1,49 @@
+{
+  "colors": {
+    "lightTheme": {
+      "primaryContainer": "#D8F1FF",
+      "onPrimaryContainer": "#002533",
+      "primary": "#00A6D6",
+      "onPrimary": "#FFFFFF",
+      "secondary": "#4EC5B1",
+      "onSecondary": "#08332D",
+      "tertiary": "#6F89A6",
+      "onTertiary": "#FFFFFF",
+      "background": "#F7FBFD",
+      "onBackground": "#182026",
+      "surface": "#FFFFFF",
+      "onSurface": "#1E2933",
+      "error": "#D64545",
+      "onError": "#FFFFFF"
+    },
+
+    "darkTheme": {
+      "primaryContainer": "#103243",
+      "onPrimaryContainer": "#C2F1FF",
+      "primary": "#4FD2FF",
+      "onPrimary": "#002533",
+      "secondary": "#62D9C5",
+      "onSecondary": "#062B25",
+      "tertiary": "#A4BCD8",
+      "onTertiary": "#101A24",
+      "background": "#0E1418",
+      "onBackground": "#EAF3F7",
+      "surface": "#172026",
+      "onSurface": "#F3FAFD",
+      "error": "#FF6B6B",
+      "onError": "#FFFFFF"
+    }
+  },
+  "services": [
+    "#00A6D6",
+    "#4EC5B1",
+    "#4FD2FF",
+    "#7DD3FC",
+    "#22C1C3",
+    "#7ED957",
+    "#5C9DFF",
+    "#B388FF",
+    "#FFB74D",
+    "#EC6C9E"
+  ]
+}
