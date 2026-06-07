@@ -1,53 +1,54 @@
 {
-  "version": "1.0.0",
+  "schemaVersion": 1,
+  "themeVersion": "1.0.0",
   "colors": {
     "lightTheme": {
       "special": {
         "primary": {
           "base": "#00A7B5",
-          "on_top": "#FFFFFF",
+          "onTop": "#FFFFFF",
           "container": "#CFF6F8",
-          "on_container": "#00363B",
+          "onContainer": "#00363B",
           "fixed": "#A6EEF2",
           "fixedDim": "#6ED8E0",
-          "on_fixed": "#002428",
-          "on_fixed_variant": "#005057"
+          "onFixed": "#002428",
+          "onFixedVariant": "#005057"
         },
         "secondary": {
           "base": "#4C7DFF",
-          "on_top": "#FFFFFF",
+          "onTop": "#FFFFFF",
           "container": "#DDE6FF",
-          "on_container": "#1A2A66",
+          "onContainer": "#1A2A66",
           "fixed": "#B9CCFF",
           "fixedDim": "#7FA2FF",
-          "on_fixed": "#0A1633",
-          "on_fixed_variant": "#2F4FB3"
+          "onFixed": "#0A1633",
+          "onFixedVariant": "#2F4FB3"
         },
         "tertiary": {
           "base": "#7A8FA6",
-          "on_top": "#FFFFFF",
+          "onTop": "#FFFFFF",
           "container": "#E7EEF5",
-          "on_container": "#2B3A4A",
+          "onContainer": "#2B3A4A",
           "fixed": "#D3DDE8",
           "fixedDim": "#A9B8C8",
-          "on_fixed": "#1B2733",
-          "on_fixed_variant": "#4A5D70"
+          "onFixed": "#1B2733",
+          "onFixedVariant": "#4A5D70"
         },
         "surface": {
           "base": "#FFFFFF",
           "tint": "#00A7B5",
-          "on_top": "#111B1D",
+          "onTop": "#111B1D",
           "variant": "#EEF4F6",
-          "on_variant": "#41565C",
+          "onVariant": "#41565C",
           "inverse": "#0F1A1C",
-          "on_inverse": "#F2FBFC",
+          "onInverse": "#F2FBFC",
           "bright": "#FFFFFF",
           "dim": "#F3F8FA",
           "container": "#FAFCFD",
-          "container_high": "#F1F7F9",
-          "container_highest": "#E7F1F4",
-          "container_low": "#FCFEFF",
-          "container_lowest": "#FFFFFF"
+          "containerHigh": "#F1F7F9",
+          "containerHighest": "#E7F1F4",
+          "containerLow": "#FCFEFF",
+          "containerLowest": "#FFFFFF"
         }
       },
       "background": "#F6FBFC",
@@ -62,49 +63,49 @@
       "special": {
         "primary": {
           "base": "#5CE1E6",
-          "on_top": "#002428",
+          "onTop": "#002428",
           "container": "#004B52",
-          "on_container": "#CFF6F8",
+          "onContainer": "#CFF6F8",
           "fixed": "#A6EEF2",
           "fixedDim": "#6ED8E0",
-          "on_fixed": "#002428",
-          "on_fixed_variant": "#005057"
+          "onFixed": "#002428",
+          "onFixedVariant": "#005057"
         },
         "secondary": {
           "base": "#7FA2FF",
-          "on_top": "#0A1633",
+          "onTop": "#0A1633",
           "container": "#2F4FB3",
-          "on_container": "#DDE6FF",
+          "onContainer": "#DDE6FF",
           "fixed": "#B9CCFF",
           "fixedDim": "#7FA2FF",
-          "on_fixed": "#0A1633",
-          "on_fixed_variant": "#2F4FB3"
+          "onFixed": "#0A1633",
+          "onFixedVariant": "#2F4FB3"
         },
         "tertiary": {
           "base": "#A9B8C8",
-          "on_top": "#1B2733",
+          "onTop": "#1B2733",
           "container": "#3A4A5A",
-          "on_container": "#E7EEF5",
+          "onContainer": "#E7EEF5",
           "fixed": "#D3DDE8",
           "fixedDim": "#A9B8C8",
-          "on_fixed": "#1B2733",
-          "on_fixed_variant": "#4A5D70"
+          "onFixed": "#1B2733",
+          "onFixedVariant": "#4A5D70"
         },
         "surface": {
           "base": "#0F1517",
           "tint": "#5CE1E6",
-          "on_top": "#EAF7F8",
+          "onTop": "#EAF7F8",
           "variant": "#1E2A2D",
-          "on_variant": "#A9C1C6",
+          "onVariant": "#A9C1C6",
           "inverse": "#EAF7F8",
-          "on_inverse": "#0F1517",
+          "onInverse": "#0F1517",
           "bright": "#2A3A3D",
           "dim": "#0B1012",
           "container": "#121A1C",
-          "container_high": "#182326",
-          "container_highest": "#1F2D31",
-          "container_low": "#0E1416",
-          "container_lowest": "#0A0F10"
+          "containerHigh": "#182326",
+          "containerHighest": "#1F2D31",
+          "containerLow": "#0E1416",
+          "containerLowest": "#0A0F10"
         }
       },
       "background": "#0B1112",
@@ -132,170 +133,83 @@
   },
   "shapes": {
     "button": {
-      "PrimaryButton": {
+      "primaryButton": {
         "cornerStyle": "Rounded",
-        "cornerRadius": "16"
+        "cornerRadius": 16
       },
-      "SecondaryButton": {
+      "secondaryButton": {
         "cornerStyle": "Rounded",
-        "cornerRadius": "14"
+        "cornerRadius": 14
       },
-      "TertiaryButton": {
+      "tertiaryButton": {
         "cornerStyle": "Rounded",
-        "cornerRadius": "18"
+        "cornerRadius": 18
       },
-      "FloatingButton": {
+      "floatingButton": {
         "cornerStyle": "Rounded",
-        "cornerRadius": "28"
+        "cornerRadius": 28
       }
     },
     "dialog": {
-      "GenericDialog": {
+      "genericDialog": {
         "cornerStyle": "Rounded",
-        "cornerRadius": "24"
+        "cornerRadius": 24
       },
-      "InfoDialog": {
+      "infoDialog": {
         "cornerStyle": "Rounded",
-        "cornerRadius": "28"
+        "cornerRadius": 28
       },
-      "ErrorDialog": {
+      "errorDialog": {
         "cornerStyle": "Rounded",
-        "cornerRadius": "20"
+        "cornerRadius": 20
       }
     },
-    "bottom_sheet": {
-      "GenerirBottomSheet": {
+    "bottomSheet": {
+      "generirBottomSheet": {
         "cornerStyle": "Rounded",
-        "cornerRadius": "28"
+        "cornerRadius": 28
       }
     },
     "custom": {
-      "WorkerCard": {
+      "workerCard": {
         "cornerStyle": "Rounded",
-        "cornerRadius": "20"
+        "cornerRadius": 20
       }
     }
   },
   "typography": {
-    "on_primary": {
-      "title": {
-        "fontFamily": "System",
-        "fontWeight": "700",
-        "fontSize": 32,
-        "lineHeight": 40
-      },
-      "subtitle": {
-        "fontFamily": "System",
-        "fontWeight": "400",
-        "fontSize": 16,
-        "lineHeight": 24
-      },
-      "detail": {
-        "fontFamily": "System",
-        "fontWeight": "200",
-        "fontSize": 12,
-        "lineHeight": 24
-      }
+    "sizing": {
+      "xs": 8,
+      "sm": 10,
+      "md": 12,
+      "lg": 16,
+      "xl": 20,
+      "xxl": 24
     },
-    "on_secondary": {
-      "title": {
-        "fontFamily": "System",
-        "fontWeight": "700",
-        "fontSize": 32,
-        "lineHeight": 40
-      },
-      "subtitle": {
-        "fontFamily": "System",
-        "fontWeight": "400",
-        "fontSize": 16,
-        "lineHeight": 24
-      },
-      "detail": {
-        "fontFamily": "System",
-        "fontWeight": "200",
-        "fontSize": 12,
-        "lineHeight": 24
-      }
+    "title": {
+      "fontFamily": "System",
+      "fontWeight": 700,
+      "lineHeight": 40
     },
-    "on_tertiary": {
-      "title": {
-        "fontFamily": "System",
-        "fontWeight": "700",
-        "fontSize": 32,
-        "lineHeight": 40
-      },
-      "subtitle": {
-        "fontFamily": "System",
-        "fontWeight": "400",
-        "fontSize": 16,
-        "lineHeight": 24
-      },
-      "detail": {
-        "fontFamily": "System",
-        "fontWeight": "200",
-        "fontSize": 12,
-        "lineHeight": 24
-      }
+    "subtitle": {
+      "fontFamily": "System",
+      "fontWeight": 400,
+      "lineHeight": 24
     },
-    "on_surface": {
-      "title": {
-        "fontFamily": "System",
-        "fontWeight": "700",
-        "fontSize": 32,
-        "lineHeight": 40
-      },
-      "subtitle": {
-        "fontFamily": "System",
-        "fontWeight": "400",
-        "fontSize": 16,
-        "lineHeight": 24
-      },
-      "detail": {
-        "fontFamily": "System",
-        "fontWeight": "200",
-        "fontSize": 12,
-        "lineHeight": 24
-      }
+    "detail": {
+      "fontFamily": "System",
+      "fontWeight": 200,
+      "lineHeight": 24
     },
-    "on_background": {
-      "title": {
-        "fontFamily": "System",
-        "fontWeight": "700",
-        "fontSize": 32,
-        "lineHeight": 40
-      },
-      "subtitle": {
-        "fontFamily": "System",
-        "fontWeight": "400",
-        "fontSize": 16,
-        "lineHeight": 24
-      },
-      "detail": {
-        "fontFamily": "System",
-        "fontWeight": "200",
-        "fontSize": 12,
-        "lineHeight": 24
-      }
+    "body": {
+      "fontFamily": "System",
+      "fontWeight": 400,
+      "lineHeight": 24
     },
-    "on_error": {
-      "title": {
-        "fontFamily": "System",
-        "fontWeight": "700",
-        "fontSize": 32,
-        "lineHeight": 40
-      },
-      "subtitle": {
-        "fontFamily": "System",
-        "fontWeight": "400",
-        "fontSize": 16,
-        "lineHeight": 24
-      },
-      "detail": {
-        "fontFamily": "System",
-        "fontWeight": "200",
-        "fontSize": 12,
-        "lineHeight": 24
-      }
+    "label": {
+      "fontFamily": "System",
+      "fontWeight": 500,
+      "lineHeight": 20
     },
     "custom": {}
   },
@@ -304,14 +218,8 @@
     "sm": 8,
     "md": 16,
     "lg": 24,
-    "xl": 32
-  },
-  "elevation": {
-    "card": 1,
-    "dialog": 4,
-    "bottomSheet": 2,
-    "fab": 6,
-    "appBar": 2
+    "xl": 32,
+    "xxl": 50
   },
   "custom": {
     "cards": {
@@ -319,11 +227,6 @@
       "ownerToday": 2,
       "customerBooking": 3,
       "workerAppointments": 2
-    },
-    "feature_flags": {
-      "online_consultation": true,
-      "instant_booking": true,
-      "subscription": false
     }
   }
 }
