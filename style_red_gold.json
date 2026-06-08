@@ -1,0 +1,244 @@
+{
+  "schemaVersion": 1,
+  "themeVersion": "1.0.0",
+  "colors": {
+    "lightTheme": {
+      "special": {
+        "primary": {
+          "base": "#C89B3C",
+          "onTop": "#1F1605",
+          "container": "#F8E9C6",
+          "onContainer": "#4A3200",
+          "fixed": "#F3D998",
+          "fixedDim": "#E0B85C",
+          "onFixed": "#2B1D00",
+          "onFixedVariant": "#7A5600",
+          "inverse": "#7A5B1A"
+        },
+        "secondary": {
+          "base": "#A63A50",
+          "onTop": "#FFFFFF",
+          "container": "#FFD9E1",
+          "onContainer": "#4A0F1D",
+          "fixed": "#FFB8C5",
+          "fixedDim": "#E16A82",
+          "onFixed": "#2A0009",
+          "onFixedVariant": "#6B2033"
+        },
+        "tertiary": {
+          "base": "#8A6A52",
+          "onTop": "#FFFFFF",
+          "container": "#F1E2D8",
+          "onContainer": "#3D2A1E",
+          "fixed": "#E8D0BF",
+          "fixedDim": "#C8A88E",
+          "onFixed": "#24160D",
+          "onFixedVariant": "#6A4B36"
+        },
+        "surface": {
+          "base": "#FFFDF9",
+          "tint": "#C89B3C",
+          "onTop": "#1E1A14",
+          "variant": "#F3EEE5",
+          "onVariant": "#5B5144",
+          "inverse": "#241F18",
+          "onInverse": "#FFF8EF",
+          "bright": "#FFFFFF",
+          "dim": "#ECE4D8",
+          "container": "#FFFCF7",
+          "containerHigh": "#FAF3EA",
+          "containerHighest": "#F2E9DD",
+          "containerLow": "#FFFDFB",
+          "containerLowest": "#FFFFFF"
+        }
+      },
+      "background": "#F8F4EE",
+      "onBackground": "#221B14",
+      "error": "#C62828",
+      "onError": "#FFFFFF",
+      "errorContainer": "#FFDAD4",
+      "onErrorContainer": "#410001",
+      "scrim": "#000000",
+      "outline": "#B08B3C",
+      "outlineVariant": "#6A5740"
+    },
+
+    "darkTheme": {
+      "special": {
+        "primary": {
+          "base": "#E0B85C",
+          "onTop": "#2B1D00",
+          "container": "#5A430D",
+          "onContainer": "#F8E9C6",
+          "fixed": "#F3D998",
+          "fixedDim": "#E0B85C",
+          "onFixed": "#2B1D00",
+          "onFixedVariant": "#7A5600",
+          "inverse": "#C89B3C"
+        },
+        "secondary": {
+          "base": "#E16A82",
+          "onTop": "#3B0816",
+          "container": "#6B2033",
+          "onContainer": "#FFD9E1",
+          "fixed": "#FFB8C5",
+          "fixedDim": "#E16A82",
+          "onFixed": "#2A0009",
+          "onFixedVariant": "#6B2033"
+        },
+        "tertiary": {
+          "base": "#C8A88E",
+          "onTop": "#2B1D13",
+          "container": "#5A4334",
+          "onContainer": "#F1E2D8",
+          "fixed": "#E8D0BF",
+          "fixedDim": "#C8A88E",
+          "onFixed": "#24160D",
+          "onFixedVariant": "#6A4B36"
+        },
+        "surface": {
+          "base": "#14110D",
+          "tint": "#E0B85C",
+          "onTop": "#F8F2EA",
+          "variant": "#2A241D",
+          "onVariant": "#C4B7A5",
+          "inverse": "#F5EEE3",
+          "onInverse": "#1C1712",
+          "bright": "#3A3228",
+          "dim": "#0D0A08",
+          "container": "#1A1611",
+          "containerHigh": "#241F18",
+          "containerHighest": "#312920",
+          "containerLow": "#15110D",
+          "containerLowest": "#0A0806"
+        }
+      },
+      "background": "#0F0C09",
+      "onBackground": "#F5EEE3",
+      "error": "#FF6B6B",
+      "onError": "#2A0000",
+      "errorContainer": "#5C1B1B",
+      "onErrorContainer": "#FFDAD4",
+      "scrim": "#000000",
+      "outline": "#A07B2F",
+      "outlineVariant": "#4D3A1A"
+    },
+
+    "custom": {
+      "services": [
+        "#C89B3C",
+        "#E0B85C",
+        "#A63A50",
+        "#E16A82",
+        "#8A6A52",
+        "#C8A88E",
+        "#FFB74D",
+        "#FF8A65",
+        "#D4AF37",
+        "#B76E79"
+      ]
+    }
+  },
+
+  "shapes": {
+    "button": {
+      "primaryButton": {
+        "cornerStyle": "Rounded",
+        "cornerRadius": 16
+      },
+      "secondaryButton": {
+        "cornerStyle": "Rounded",
+        "cornerRadius": 14
+      },
+      "tertiaryButton": {
+        "cornerStyle": "Rounded",
+        "cornerRadius": 18
+      },
+      "floatingButton": {
+        "cornerStyle": "Rounded",
+        "cornerRadius": 28
+      }
+    },
+    "dialog": {
+      "genericDialog": {
+        "cornerStyle": "Rounded",
+        "cornerRadius": 24
+      },
+      "infoDialog": {
+        "cornerStyle": "Rounded",
+        "cornerRadius": 28
+      },
+      "errorDialog": {
+        "cornerStyle": "Rounded",
+        "cornerRadius": 20
+      }
+    },
+    "bottomSheet": {
+      "genericBottomSheet": {
+        "cornerStyle": "Rounded",
+        "cornerRadius": 28
+      }
+    },
+    "custom": {
+      "workerCard": {
+        "cornerStyle": "Rounded",
+        "cornerRadius": 20
+      }
+    }
+  },
+
+  "typography": {
+    "sizing": {
+      "xs": 8,
+      "sm": 10,
+      "md": 12,
+      "lg": 16,
+      "xl": 20,
+      "xxl": 24
+    },
+    "title": {
+      "fontFamily": "System",
+      "fontWeight": 700,
+      "lineHeight": 40
+    },
+    "subtitle": {
+      "fontFamily": "System",
+      "fontWeight": 400,
+      "lineHeight": 24
+    },
+    "detail": {
+      "fontFamily": "System",
+      "fontWeight": 200,
+      "lineHeight": 24
+    },
+    "body": {
+      "fontFamily": "System",
+      "fontWeight": 400,
+      "lineHeight": 24
+    },
+    "label": {
+      "fontFamily": "System",
+      "fontWeight": 500,
+      "lineHeight": 20
+    },
+    "custom": {}
+  },
+
+  "spacing": {
+    "xs": 4,
+    "sm": 8,
+    "md": 16,
+    "lg": 24,
+    "xl": 32,
+    "xxl": 50
+  },
+
+  "custom": {
+    "cards": {
+      "workerToday": 1,
+      "ownerToday": 2,
+      "customerBooking": 3,
+      "workerAppointments": 2
+    }
+  }
+}
