@@ -12,7 +12,8 @@
           "fixed": "#A6EEF2",
           "fixedDim": "#6ED8E0",
           "onFixed": "#002428",
-          "onFixedVariant": "#005057"
+          "onFixedVariant": "#005057",
+          "inverse": "#8bb2b5"
         },
         "secondary": {
           "base": "#4C7DFF",
@@ -57,7 +58,9 @@
       "onError": "#FFFFFF",
       "errorContainer": "#FFD9D9",
       "onErrorContainer": "#3B0000",
-      "scrim": "#000000"
+      "scrim": "#000000",
+      "outline": "#00ced6",
+      "outlineVariant": "#1f2e33"
     },
     "darkTheme": {
       "special": {
@@ -69,7 +72,8 @@
           "fixed": "#A6EEF2",
           "fixedDim": "#6ED8E0",
           "onFixed": "#002428",
-          "onFixedVariant": "#005057"
+          "onFixedVariant": "#005057",
+          "inverse": "#225557"
         },
         "secondary": {
           "base": "#7FA2FF",
@@ -114,7 +118,9 @@
       "onError": "#1A0000",
       "errorContainer": "#5A1E1E",
       "onErrorContainer": "#FFD9D9",
-      "scrim": "#000000"
+      "scrim": "#000000",
+      "outline": "#0d80a6",
+      "outlineVariant": "#023c4f"
     },
     "custom": {
       "services": [
@@ -165,7 +171,7 @@
       }
     },
     "bottomSheet": {
-      "generirBottomSheet": {
+      "genericBottomSheet": {
         "cornerStyle": "Rounded",
         "cornerRadius": 28
       }
