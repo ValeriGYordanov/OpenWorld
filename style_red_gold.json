@@ -235,10 +235,10 @@
 
   "custom": {
     "cards": {
-      "workerToday": 1,
-      "ownerToday": 2,
-      "customerBooking": 3,
-      "workerAppointments": 2
+      "topBarVariant": 2,
+      "navigationBarVariant": 2,
+      "customerBookingCardVariant": 2,
+      "customerPathStepperCardVariant": 2
     }
   }
 }
